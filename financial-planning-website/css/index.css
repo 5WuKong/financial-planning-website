@@ -1,0 +1,199 @@
+
+
+/*intro样式开始*/
+#news{
+	position: absolute;
+	top: 540px;	
+	padding-top: 20px;
+}
+.comp-news,.trade-trends{
+	width: 334px;
+	height: 187px;
+	float: left;
+	margin-right: 40px;
+}
+#news h3{
+	width: 334px;
+	height: 32px;
+	text-indent: 20px;
+	/*padding-left: 20px;*/
+	border-bottom: 2px solid #EA3939;
+	background-position: left center;
+	line-height: 32px;
+	color: #EA3939;
+}
+#news .comp-news h3{
+	border-bottom: 2px solid #EA3939;
+	background: url(../img/index/xw_1.png) no-repeat left center;
+	color: #EA3939;
+}
+#news .trade-trends h3{
+	background: url(../img/index/xw_2.png) no-repeat left center;
+	color: black;
+	border-bottom: 2px solid black;
+}
+.comp-news a,.trade-trends a{
+	float: right;
+	margin-right: 10px;
+	font-size: 14px;
+	color: #5A5A5A;
+}
+#news li{
+	height: 29px;
+	line-height: 29px;
+	border-bottom: 1px dotted #ccc;
+	background: url(../img/article_arrow.gif) no-repeat 5px center;
+	text-indent: 20px;
+}
+#news .news-title{
+	float: left;
+	font-size: 12px;
+}
+#news .news-data{
+	float: right;
+	color: #5A5A5A;
+	font-size: 12px;
+}
+#function{
+	float: left;
+}
+.financing,.funds,.equity{
+	width: 100px;
+	height: 45px;
+	background: blue;
+	float: left;
+	margin-right: 20px;
+	padding-top: 125px;
+	text-align: center;
+}
+.financing{
+	background: url(../img/index/sy_tz_1.jpg) no-repeat;
+}
+.financing:hover{
+	background: url(../img/index/sy_tz_1_h.jpg) no-repeat;
+}
+.funds{
+	background: url(../img/index/sy_tz_2.jpg) no-repeat;
+}
+.funds:hover{
+	background: url(../img/index/sy_tz_2_h.jpg) no-repeat;
+}
+.equity{
+	margin-right: 0;
+	background: url(../img/index/sy_tz_3.jpg) no-repeat;
+}
+.equity:hover{
+	background: url(../img/index/sy_tz_3_h.jpg) no-repeat;
+}
+.fin-title a{
+    color: #EA3939;
+	font-size: 14px;
+	font-weight: bold;
+}
+.fin-title{
+    margin-top: 10px;
+    height: 25px;
+}
+.fin-en{
+	display: block;
+	font-size: 12px;
+	color: #826682;
+	margin: 0 auto;
+}
+#about{
+	width: 1100px;
+	height: 319px;
+	position: absolute;
+	top: 754px;
+}
+#about-us{
+	width: 298px;
+	height: 317px;
+	background: url(../img/index/ab_t.jpg) no-repeat center top;
+	margin-right: 10px;
+	float: left;
+	border: 1px #CCCCCC solid;
+}
+#about-us p{
+	padding: 155px 10px 10px 10px;
+	color: #5A5A5A;
+}
+#invest{
+	width: 236px;
+	height: 317px;
+	background-color:#F1F1F1; 	
+	padding: 0 20px;
+	margin-right: 5px;
+	float: left;
+}
+#invest a{
+	color: #EA3939;
+	font-size: 12px;
+}
+#invest dl{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#invest dt{
+	height: 27px;
+	font-size: 15px;
+    color: #EA3939;
+}
+#invest dd{
+	line-height: 25px;
+}
+#contact{
+	background-color:#F1F1F1; 	
+	width: 505px;
+	height: 153px;
+	float: left;
+	margin-bottom: 10px;
+}
+#job{
+	background-color:#F1F1F1; 	
+	width: 505px;
+	height: 153px;
+	float: left;
+}
+#contact a{
+	float: left;
+}
+#cont-com{
+	margin-top: 20px;
+	float: left;
+}
+#cont-ways{
+	width: 265px;
+	float: left;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.cont-items{
+	float: left;
+	line-height: 25px;
+}
+.cont-details{
+	width: 200px;
+	float: left;
+	line-height: 25px;
+}
+#job-zp{
+	float: left;
+}
+#job dl{
+	padding-left: 20px;
+	padding-top: 30px;
+	width: 315px;
+	float: left;
+	line-height: 25px;
+	font-size: 12px;
+}
+#job dt{
+	color: #EA3939;
+	font-size: 14px;
+}
+#job a{
+	float: left;	
+}
+/*intro样式结束*/

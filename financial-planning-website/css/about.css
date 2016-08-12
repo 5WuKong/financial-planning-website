@@ -1,0 +1,132 @@
+#adout-us{
+	position: absolute;
+	top: 545px;
+	width: 290px;
+	height: 252px;
+	/*background: red;*/
+}
+#adout-us h3{
+	background: url(../img/about/nav_title_sign.gif) no-repeat;
+	width: 290px;
+	height: 37px;
+	text-indent: 15px;
+	/*padding-left: 20px;*/
+	border-bottom: 2px solid #EA3939;
+	background-position: left center;
+	line-height: 37px;
+}
+#adout-us h3 a{
+	color: #EA3939;
+	font-size: 14px;
+}
+#adout-us ul{
+	width: 290px;
+	height: 205px;
+}
+#adout-us li{
+	width: 290px;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+#adout-us ul a{
+	display: block;
+	color: #EA3939;
+	background: #EFEFEF;
+	width: 290px;
+	height: 40px;
+    line-height: 40px;
+	text-align: center;
+/*文字居中，竖直方向行高=高，水平方向text-align:center*/
+	/*margin: 0 auto;*/
+}
+#adout-us li a:hover{
+	background: white;
+	color: black;
+}
+#about-intro{
+	/*background: url(../img/about/about-house.jpg) no-repeat top right;*/
+	position: absolute;
+	float: left;
+	top: 544px;
+	left: 460px;
+	width: 770px;
+	height: 1281px;
+}
+#about-intro h3{
+	width: 770px;
+	height: 37px;
+	border-bottom: 2px solid black;
+	line-height: 37px;
+	font-size: 14px;
+	color: black;
+	font-weight:normal;
+}
+#about-intro h3 a{
+	color: black;
+	font-weight:normal;
+}
+#about-text1{
+	width: 750px;
+	/*height: 442px;*/
+	line-height: 30px;
+	font-size: 14px;
+	color: #5A5A5A;
+}
+/*#about-text1 h{
+	width: 520px;
+	height: 120px;
+}*/
+#at1-p1{
+	text-indent: 20px;
+	float: left;
+	width: 500px;
+	height: 120px;
+	margin-top: 20px;
+	color: #5A5A5A;
+}
+#about-house{
+	float: left;
+	margin-top: 20px;
+}
+#at1-t1{
+	float: left;
+	width: 750px;
+}
+#about-pref{
+	float: left;
+	background: #EA3939;
+	width: 290px;
+	height: 340px;
+	position: absolute;
+	top: 822px;
+}
+#about-pref p{
+	color: white;
+}
+#pref-sept{
+	width: 250px;
+	height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 20px
+}
+#pref-act{
+	line-height: 35px;
+	width: 250px;
+	height: 120px;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-left: 20px
+}
+#pref-det{
+	width: 250px;
+	height: 42px;
+	font-size: 12px;
+	margin-top: 70px;
+	margin-left: 20px
+}
+#footer{
+	top: 1896px;
+}

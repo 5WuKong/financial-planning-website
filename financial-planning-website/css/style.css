@@ -1,0 +1,234 @@
+/*css样式重置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+body{
+	font-size: 14px;
+}
+/*去除所有边距样式格式,无论3721，样式先写这些话*/
+
+/*head样式开始*/
+#header{
+	width: 1100px;
+	height: 100px;
+	position: absolute;
+/*position的三种用法*/
+	margin: 0 133px;
+}
+#logo{
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+/*元素居中*/
+}
+#search-box{
+	width: 262px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	left: 50%;
+	margin-left: -131px;
+	border: 1px solid #EB3939;
+}
+#search-text{
+	border: 0;
+/*默认带边框，设置前请清除*/
+	width: 212px;
+	height: 30px;
+	float: left;
+	text-indent: 10px;
+/*两个连在一起用float:left*/
+}
+#search-btn{
+	border: 0;
+	width: 50px;
+	height: 30px;
+	float: left;
+	background: #EB3939;
+	color: white;
+/*文本颜色直接用color*/
+}
+#share{
+	width: 210px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	right: 30px;
+}
+#share li{
+	float: left;
+	margin-right:60px; 
+}
+#share a{
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+#share .qq{
+	background: url('../img/top_qq.jpg') 
+}
+#share .qq:hover{
+	background: url('../img/top_qq_h.jpg') 
+}
+#share .weibo{
+	background: url('../img/top_weib.jpg') 
+}
+#share .weibo:hover{
+	background: url('../img/top_weib_h.jpg') 
+}
+#share .mail{
+	background: url('../img/top_you.jpg') 
+}
+#share .mail:hover{
+	background: url('../img/top_you_h.jpg') 
+}
+/*head样式结束*/
+
+/*nav样式开始*/
+#nav{
+	width: 1366px;
+	height: 50px;
+	position: absolute;
+	top: 100px;
+	background:#EB3939;
+}
+#nav ul{
+	width: 1100px;
+	height: 50px;
+	margin: 0 auto;
+}
+#nav li{
+	width: 135px;
+	height: 50px;
+	float: left;
+}
+#nav a{
+	display: block;
+	width: 135px;
+	height: 50px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	margin-top: -7px;
+	text-align: center;
+	/*margin: 0 auto;*/
+}
+#nav li:hover{
+	background: #A61C00;
+}
+
+/*nav样式结束*/
+/*banner样式开始*/
+#banner{
+	position: absolute;
+	top: 150px;
+}
+/*banner样式结束*/
+/*footer样式开始*/
+#footer{
+	position: absolute;
+	top: 1071px;
+	width: 100%;
+	height: 180px;
+	background: #666;
+	margin-top: 20px;
+}
+/*#footer .wrap{
+	margin-top: -10px;
+}*/
+#footer-first{
+	margin-top: -10px;
+	float: left;
+}
+#footer-copr{
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+	color: white;
+	line-height: 50px;
+	width: 400px;
+}
+#footer-foot{
+	width: 740px;
+	text-indent: 260px;
+	font-size: 12px;
+}
+#footer-ewm{
+	float: left;
+	margin-top: 30px;
+	margin-left: 220px;
+}
+#footer-infor{
+	float: left;
+	width: 270px;
+	margin-top: 45px;
+	margin-left: 20px;
+	color: white;
+}
+#footer-commu{
+	float: left;
+	height: 35px;
+	width: 215px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.footer-qq,.footer-weib,.footer-mail{
+	float: left;
+	margin-right: 30px;
+}
+.footer-mail{
+	margin-right: 0;
+}
+#footer-commu a{
+	float: left;
+/*先float a 才能继续*/
+	width: 37px;
+	height: 35px;
+}
+.footer-qq a{
+	background: url(../img/db_qq.jpg);
+}
+.footer-qq a:hover{
+	background: url(../img/db_qq_h.jpg);
+}
+.footer-weib a{
+	background: url(../img/db_wb.jpg);
+}
+.footer-weib a:hover{
+	background: url(../img/db_wb_h.jpg);
+}
+.footer-mail a{
+	background: url(../img/db_yx.jpg);
+}
+.footer-mail a:hover{
+	background: url(../img/db_yx_h.jpg);
+}
+/*footer样式结束*/
+.wrap{
+	font-family: "Microsoft YaHei";
+	width: 1100px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+/*
+问题1：clearfix不好使 
+问题2：h3不知道从哪加的
+*/
